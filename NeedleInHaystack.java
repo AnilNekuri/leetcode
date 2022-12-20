@@ -2,10 +2,6 @@ public class NeedleInHaystack {
     public static void main(String[] args) {
         var haystack = "mississippi";
         var needle = "issipi";
-        /*
-        "mississippi"
-"issipi"
-         */
         NeedleInHaystack p = new NeedleInHaystack();
         int r = p.strStr(haystack, needle);
         System.out.println("Result: "+r);
