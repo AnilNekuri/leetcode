@@ -1,10 +1,10 @@
+import java.util.Map;
 import java.util.Stack;
 
 public class ValidParentheses {
-    char[] op = {'(','{','['};
-    char[] cp = {')','}',']'};
+    Map<Character,Character> parentheese = Map.of(')','(','}','{',']','[');
     public static void main(String[] args) {
-        String s = "()[]{}";
+        String s = "()[]}";
         ValidParentheses v = new ValidParentheses();
         boolean isValid = v.isValid(s);
         System.out.println(isValid);
@@ -13,20 +13,18 @@ public class ValidParentheses {
         Stack<Character> stack = new Stack<>();
         for(int i = 0; i < s.length(); i++){
             char c = s.charAt(i);
-            if(containsChar(op,c)){
+            if(parentheese.containsValue(c)){
                 stack.push(c);
-            }else if(containsChar(cp,c) && stack.size() > 0){
+            }else if(parentheese.containsKey(c) && !stack.isEmpty()){
                 char pop = stack.pop();
-                if((c == ')' && pop != '(')
-                || (c == ']' && pop != '[')
-                || (c == '}' && pop != '{')){
+                if(parentheese.get(c) != pop){
                     return false;
                 }
             }else{
                 return false;
             }
         }
-        return stack.size() == 0? true: false;
+        return stack.isEmpty();
     }
 
     private boolean containsChar(char[] charr, char c){
