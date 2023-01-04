@@ -1,7 +1,5 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class MostCommonWord {
@@ -17,7 +15,23 @@ public class MostCommonWord {
         String result = mcw.mostCommonWord(paragraph, banned);
         System.out.println(result);
     }
+
     public String mostCommonWord(String paragraph, String[] banned) {
+        Set<String> bannedSet = new HashSet<>();
+        bannedSet.addAll(Arrays.asList(banned));
+
+        String normalizedStr = paragraph.replaceAll("[^a-zA-Z0-9 ]"," ").toLowerCase();
+
+        String[] words = normalizedStr.split("\\s+");
+
+        Map<String, Long> wordCount = Arrays.asList(words).stream()
+                .filter(word -> !bannedSet.contains(word))
+                .collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+
+        return Collections.max(wordCount.entrySet(), Map.Entry.comparingByValue()).getKey();
+
+    }
+    public String mostCommonWord01(String paragraph, String[] banned) {
         char[] pChars = paragraph.toCharArray();
         StringBuilder sb = new StringBuilder();
         for(int w = 0; w < pChars.length; w++) {
@@ -44,8 +58,6 @@ public class MostCommonWord {
                     result = word;
                 }
             }
-
-
         }
         return result;
     }
