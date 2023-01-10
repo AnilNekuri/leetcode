@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package com.anil.arrays;
+
 import java.util.HashMap;
 import java.util.Map;
 

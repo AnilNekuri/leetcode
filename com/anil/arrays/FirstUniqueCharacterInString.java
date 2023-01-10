@@ -1,3 +1,5 @@
+package com.anil.arrays;
+
 import java.util.*;
 
 public class FirstUniqueCharacterInString {
