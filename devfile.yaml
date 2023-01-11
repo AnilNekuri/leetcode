@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  name: leetcode-fbuf
+  name: leetcode
   namespace: anilnekuri-dev
 attributes:
   che-theia.eclipse.org/sidecar-policy: mergeImage
