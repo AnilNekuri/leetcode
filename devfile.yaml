@@ -1,0 +1,41 @@
+schemaVersion: 2.1.0
+metadata:
+  name: leetcode-fbuf
+  namespace: anilnekuri-dev
+attributes:
+  che-theia.eclipse.org/sidecar-policy: mergeImage
+  controller.devfile.io/devworkspace-config:
+    name: devworkspace-config
+    namespace: crw
+  controller.devfile.io/scc: container-build
+  controller.devfile.io/storage-type: common
+  dw.metadata.annotations:
+    che.eclipse.org/che-editor: che-incubator/che-idea/latest
+    che.eclipse.org/devfile-source: |
+      url:
+        location: 'https://github.com/AnilNekuri/leetcode'
+      factory:
+        params: >-
+          che-editor=che-incubator/che-idea/latest&policies.create=perclick&url=https://github.com/AnilNekuri/leetcode
+    che.eclipse.org/last-updated-timestamp: '2023-01-11T20:08:50.788Z'
+  metadata-name-field: generateName
+  metadata-name-original-value: leetcode
+projects:
+  - git:
+      remotes:
+        origin: 'https://github.com/AnilNekuri/leetcode.git'
+    name: leetcode
+components:
+  - container:
+      env:
+        - name: CHE_DASHBOARD_URL
+          value: 'https://devspaces.apps.sandbox.x8i5.p1.openshiftapps.com'
+        - name: CHE_PLUGIN_REGISTRY_URL
+          value: 'https://devspaces.apps.sandbox.x8i5.p1.openshiftapps.com/plugin-registry/v3'
+        - name: CHE_PLUGIN_REGISTRY_INTERNAL_URL
+          value: 'http://plugin-registry.crw.svc:8080/v3'
+        - name: OPENVSX_REGISTRY_URL
+          value: ''
+      image: 'quay.io/devfile/universal-developer-image:ubi8-38da5c2'
+      sourceMapping: /projects
+    name: universal-developer-image
