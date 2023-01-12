@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : TrappingRainWater&#10;https://leetcode.com/problems/trapping-rain-water/description/">
-      <change afterPath="$PROJECT_DIR$/com/anil/linkedList/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/anil/linkedList/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompareVersionNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/CompareVersionNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstUniqueCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/FirstUniqueCharacterInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupAnagramCategorizeByCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/GroupAnagramCategorizeByCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegerToEnglishWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/IntegerToEnglishWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinimumWindowSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/MinimumWindowSubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MostCommonWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/MostCommonWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeedleInHaystack.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/NeedleInHaystack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductofArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/ProductofArrayExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReorderLogFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/ReorderLogFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/RotateImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RotateImageSco1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/RotateImageSco1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/ThreeSumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/TrappingRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/arrays/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/anil/linkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/linkedList/AddTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,11 +272,6 @@
           <url>file://$PROJECT_DIR$/com/anil/arrays/MostCommonWord.java</url>
           <line>50</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/anil/linkedList/AddTwoNumbers.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
