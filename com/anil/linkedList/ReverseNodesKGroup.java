@@ -5,14 +5,39 @@ import java.util.List;
 public class ReverseNodesKGroup extends BaseClass{
     public static void main(String[] args) {
         int[] l1Arr = {1,2,3,4,5};
-        int k = 2;
+        int k = 3;
         ReverseNodesKGroup r = new ReverseNodesKGroup();
         ListNode head = r.loadListNode(l1Arr);
         ListNode resultHead = r.reverseKGroup(head,k);
         System.out.println(r.singleLinkedListToString(resultHead));
-
+        //System.out.println(r.singleLinkedListToString(r.reverseKGroup(head,k)));
     }
-    public ListNode reverseKGroup(ListNode head, int k) {
+
+    public ListNode reverseKGroup(ListNode head, int k){
+        ListNode tail = head;
+        for(int i = 0; i < k-1 && tail != null; i++)
+            tail = tail.next;
+        if(tail == null)
+            return head;
+        ListNode nextHead = tail.next;
+        ListNode newHead = reverseSingleLinkedList(head,k);
+        head.next = reverseKGroup(nextHead,k);
+        return newHead;
+    }
+
+    private ListNode reverseSingleLinkedList(ListNode head,int k){
+        ListNode ptr = head;
+        ListNode newHead = null;
+        while (k > 0){
+            ListNode oldHead = newHead;
+            newHead = ptr;
+            ptr = ptr.next;
+            newHead.next = oldHead;
+            k--;
+        }
+        return newHead;
+    }
+    public ListNode reverseKGroupMine(ListNode head, int k) {
         ListNode dummyHead = new ListNode();
         ListNode prevTail = dummyHead;
         prevTail.next = head;
