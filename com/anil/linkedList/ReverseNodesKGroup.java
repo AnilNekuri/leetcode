@@ -12,8 +12,27 @@ public class ReverseNodesKGroup extends BaseClass{
         System.out.println(r.singleLinkedListToString(resultHead));
         //System.out.println(r.singleLinkedListToString(r.reverseKGroup(head,k)));
     }
-
     public ListNode reverseKGroup(ListNode head, int k){
+        ListNode dummyHead = new ListNode();
+        ListNode ptr = dummyHead;
+        ListNode tail = dummyHead;
+        dummyHead.next = head;
+        while(ptr!=null){
+            ListNode newHead = ptr.next;
+            for(int i = 0; i < k-1 && tail != null; i++)
+                tail = tail.next;
+            if(tail == null)
+                return dummyHead.next;
+            ListNode tmp = tail.next;
+            ptr.next = reverseSingleLinkedList(newHead,k);
+            newHead.next = tmp;
+            ptr = newHead;
+        }
+
+        return dummyHead.next;
+    }
+    //recursive
+    public ListNode reverseKGroupRecursive(ListNode head, int k){
         ListNode tail = head;
         for(int i = 0; i < k-1 && tail != null; i++)
             tail = tail.next;
@@ -62,4 +81,8 @@ public class ReverseNodesKGroup extends BaseClass{
         }
         return dummyHead.next;
     }
+
+
+
+
 }

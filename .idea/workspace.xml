@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/com/anil/linkedList/CopyListWithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/anil/linkedList/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/anil/linkedList/ReverseNodesKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/linkedList/ReverseNodesKGroup.java" afterDir="false" />
     </list>
@@ -300,7 +302,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/com/anil/linkedList/ReverseNodesKGroup.java</url>
-          <line>48</line>
+          <line>67</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
