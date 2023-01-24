@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Copy List with Random Pointer&#10;https://leetcode.com/problems/copy-list-with-random-pointer/description/">
-      <change afterPath="$PROJECT_DIR$/com/anil/linkedList/ReverseLinkedList.java" afterDir="false" />
+    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Merge k Sorted Lists&#10;https://leetcode.com/problems/merge-k-sorted-lists/description/">
+      <change afterPath="$PROJECT_DIR$/com/anil/linkedList/MergeKSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674326019247</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Success code : Reverse Linked List&#10;https://leetcode.com/explore/interview/card/amazon/77/linked-list/2979/">
+      <created>1674485210543</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674485210543</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +286,9 @@
     <MESSAGE value="Success code : TrappingRainWater&#10;https://leetcode.com/problems/trapping-rain-water/description/" />
     <MESSAGE value="Success code : Reverse Nodes in k-Group&#10;https://leetcode.com/explore/interview/card/amazon/77/linked-list/2977/" />
     <MESSAGE value="Success code : Copy List with Random Pointer&#10;https://leetcode.com/problems/copy-list-with-random-pointer/description/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Success code : Copy List with Random Pointer&#10;https://leetcode.com/problems/copy-list-with-random-pointer/description/" />
+    <MESSAGE value="Success code : Reverse Linked List&#10;https://leetcode.com/explore/interview/card/amazon/77/linked-list/2979/" />
+    <MESSAGE value="Success code : Merge k Sorted Lists&#10;https://leetcode.com/problems/merge-k-sorted-lists/description/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Success code : Merge k Sorted Lists&#10;https://leetcode.com/problems/merge-k-sorted-lists/description/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
