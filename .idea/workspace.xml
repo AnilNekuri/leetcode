@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Binary Tree Zigzag Level Order Traversal&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2980/">
-      <change afterPath="$PROJECT_DIR$/com/anil/treesandgraphs/WordLadder.java" afterDir="false" />
+    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Word Ladder II&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/483/">
+      <change afterPath="$PROJECT_DIR$/com/anil/treesandgraphs/NumberOfIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/anil/treesandgraphs/BinaryTreeMaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/treesandgraphs/BinaryTreeMaximumPathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,8 +54,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/com/anil/arrays" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.anil.treesandgraphs" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.WordLadder">
+  <component name="RunManager" selected="Application.NumberOfIslands">
     <configuration name="CopyListWithRandomPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anil.linkedList.CopyListWithRandomPointer" />
       <module name="leetcode" />
@@ -67,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anil.linkedList.MergeTwoSortedLists" />
+    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anil.treesandgraphs.NumberOfIslands" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anil.linkedList.*" />
+          <option name="PATTERN" value="com.anil.treesandgraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,19 +87,6 @@
     </configuration>
     <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anil.linkedList.ReverseLinkedList" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anil.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseNodesKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anil.linkedList.ReverseNodesKGroup" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -119,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkLadderII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anil.treesandgraphs.WorkLadderII" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anil.treesandgraphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfIslands" />
+        <item itemvalue="Application.WorkLadderII" />
         <item itemvalue="Application.WordLadder" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.CopyListWithRandomPointer" />
-        <item itemvalue="Application.ReverseNodesKGroup" />
-        <item itemvalue="Application.MergeTwoSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675222602162</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Success code : Word Ladder&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2982/">
+      <created>1676151780698</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676151780698</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Success code : Word Ladder II&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/483/">
+      <created>1678976532808</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678976532808</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,7 +339,9 @@
     <MESSAGE value="Success code : Validate Binary Search Tree&#10;https://leetcode.com/problems/validate-binary-search-tree/description/" />
     <MESSAGE value="Success code : Symmetric Tree&#10;https://leetcode.com/problems/symmetric-tree/description/" />
     <MESSAGE value="Success code : Binary Tree Zigzag Level Order Traversal&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2980/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Success code : Binary Tree Zigzag Level Order Traversal&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2980/" />
+    <MESSAGE value="Success code : Word Ladder&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2982/" />
+    <MESSAGE value="Success code : Word Ladder II&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/483/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Success code : Word Ladder II&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/483/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -377,12 +398,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/com/anil/treesandgraphs/WordLadder.java</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/com/anil/treesandgraphs/WordLadder.java</url>
-          <line>42</line>
+          <line>52</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
