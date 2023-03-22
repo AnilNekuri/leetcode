@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Number of Islands&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/894/">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/anil/treesandgraphs/CourseSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +58,13 @@
       <recent name="com.anil.treesandgraphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfIslands">
-    <configuration name="CopyListWithRandomPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anil.linkedList.CopyListWithRandomPointer" />
+  <component name="RunManager" selected="Application.CourseSchedule">
+    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anil.treesandgraphs.CourseSchedule" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anil.linkedList.*" />
+          <option name="PATTERN" value="com.anil.treesandgraphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.WorkLadderII" />
         <item itemvalue="Application.WordLadder" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.CopyListWithRandomPointer" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679320536511</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Success code : Number of Islands&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/894/">
+      <created>1679321635268</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679321635268</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
