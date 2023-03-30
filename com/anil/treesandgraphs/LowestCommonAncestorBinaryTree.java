@@ -2,10 +2,7 @@ package com.anil.treesandgraphs;
 
 import com.sun.source.tree.Tree;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class LowestCommonAncestorBinaryTree {
 
@@ -18,6 +15,10 @@ public class LowestCommonAncestorBinaryTree {
 
 
         TreeNode la = l.lowestCommonAncestor(root,p,q);
+
+        System.out.println(la.val);
+
+        la = l.lowestCommonAncestorRecursive(root,p,q);
 
         System.out.println(la.val);
     }
@@ -50,7 +51,7 @@ public class LowestCommonAncestorBinaryTree {
     }
 
 
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestorRecursive(TreeNode root, TreeNode p, TreeNode q) {
         LinkedList<TreeNode> pAncestors = new LinkedList<>();
         findChild(root,p,pAncestors);
 
@@ -85,11 +86,42 @@ public class LowestCommonAncestorBinaryTree {
 
         found = findChild(root.right,c,ancestors);
         if(found) return true;
-        if(root.right != null){
-            ancestors.remove(ancestors.size()-1);
+        if(root.right != null) {
+            ancestors.remove(ancestors.size() - 1);
+        }
+        return false;
+    }
+
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        Map<TreeNode,TreeNode> parentMap = new HashMap<>();
+        parentMap.put(root,null);
+        Queue<TreeNode> stack = new LinkedList<>();
+        stack.add(root);
+
+        while(!stack.isEmpty()){
+            TreeNode node = stack.poll();
+
+            if(node.left!=null){
+                parentMap.put(node.left,node);
+                stack.add(node.left);
+            }
+
+            if(node.right!=null){
+                parentMap.put(node.right,node);
+                stack.add(node.right);
+            }
         }
 
+        List<TreeNode> ancestors = new ArrayList<>();
 
-        return false;
+        while (p != null){
+            ancestors.add(p);
+            p = parentMap.get(p);
+        }
+
+        while (!ancestors.contains(q)){
+            q = parentMap.get(q);
+        }
+        return q;
     }
 }

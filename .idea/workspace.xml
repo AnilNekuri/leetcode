@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Course Schedule&#10;https://leetcode.com/submissions/detail/920132909/?from=explore&amp;item_id=2983">
-      <change afterPath="$PROJECT_DIR$/com/anil/treesandgraphs/LowestCommonAncestorBinaryTree.java" afterDir="false" />
+    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Lowest Common Ancestor of a Binary Tree&#10;https://leetcode.com/submissions/detail/921562111/?from=explore&amp;item_id=2984">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/anil/treesandgraphs/LowestCommonAncestorBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/treesandgraphs/LowestCommonAncestorBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679492285215</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Success code : Lowest Common Ancestor of a Binary Tree&#10;https://leetcode.com/submissions/detail/921562111/?from=explore&amp;item_id=2984">
+      <created>1679702616793</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679702616793</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +371,8 @@
     <MESSAGE value="Success code : Word Ladder II&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/483/" />
     <MESSAGE value="Success code : Number of Islands&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/894/" />
     <MESSAGE value="Success code : Course Schedule&#10;https://leetcode.com/submissions/detail/920132909/?from=explore&amp;item_id=2983" />
-    <option name="LAST_COMMIT_MESSAGE" value="Success code : Course Schedule&#10;https://leetcode.com/submissions/detail/920132909/?from=explore&amp;item_id=2983" />
+    <MESSAGE value="Success code : Lowest Common Ancestor of a Binary Tree&#10;https://leetcode.com/submissions/detail/921562111/?from=explore&amp;item_id=2984" />
+    <option name="LAST_COMMIT_MESSAGE" value="Success code : Lowest Common Ancestor of a Binary Tree&#10;https://leetcode.com/submissions/detail/921562111/?from=explore&amp;item_id=2984" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,7 +439,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/com/anil/treesandgraphs/LowestCommonAncestorBinaryTree.java</url>
-          <line>74</line>
+          <line>75</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
