@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Cut Off Trees for Golf Event&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2986/">
-      <change afterPath="$PROJECT_DIR$/com/anil/reursion/LetterCombinationsPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/anil/treesandgraphs/FloodFill.java" afterDir="false" />
+    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Letter Combinations of a Phone Number&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/521/">
+      <change afterPath="$PROJECT_DIR$/com/anil/reursion/GenerateParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <recent name="com.anil.treesandgraphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LetterCombinationsPhoneNumber">
+  <component name="RunManager" selected="Application.GenerateParentheses">
     <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anil.treesandgraphs.CourseSchedule" />
       <module name="leetcode" />
@@ -79,6 +78,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.anil.treesandgraphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anil.reursion.GenerateParentheses" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anil.reursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anil.treesandgraphs.NumberOfIslands" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anil.treesandgraphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.LetterCombinationsPhoneNumber" />
         <item itemvalue="Application.CutOffTreesForGolfEvent" />
         <item itemvalue="Application.LowestCommonAncestorBinaryTree" />
         <item itemvalue="Application.CourseSchedule" />
-        <item itemvalue="Application.NumberOfIslands" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680820262814</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Success code : Letter Combinations of a Phone Number&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/521/">
+      <created>1681229770527</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681229770527</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +368,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Success code : 3SumClosest&#10;https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2967/" />
     <MESSAGE value="NeedleInHaystack&#10;https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/" />
     <MESSAGE value="Success code : RotateImage&#10;https://leetcode.com/problems/rotate-image/description/" />
     <MESSAGE value="Success code : GroupAnagrams&#10;https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2970/" />
@@ -387,7 +392,8 @@
     <MESSAGE value="Success code : Course Schedule&#10;https://leetcode.com/submissions/detail/920132909/?from=explore&amp;item_id=2983" />
     <MESSAGE value="Success code : Lowest Common Ancestor of a Binary Tree&#10;https://leetcode.com/submissions/detail/921562111/?from=explore&amp;item_id=2984" />
     <MESSAGE value="Success code : Cut Off Trees for Golf Event&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2986/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Success code : Cut Off Trees for Golf Event&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2986/" />
+    <MESSAGE value="Success code : Letter Combinations of a Phone Number&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/521/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Success code : Letter Combinations of a Phone Number&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/521/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
