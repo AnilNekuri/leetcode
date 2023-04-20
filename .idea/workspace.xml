@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Generate Parentheses&#10;https://leetcode.com/submissions/detail/932053092/?from=explore&amp;item_id=2988">
+    <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Word Search&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/2989/">
+      <change afterPath="$PROJECT_DIR$/com/anil/recursion/WordSearchII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/anil/recursion/WordSearchIITrie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/anil/recursion/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/anil/recursion/WordSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +59,7 @@
       <recent name="com.anil.treesandgraphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordSearch">
-    <configuration name="CutOffTreesForGolfEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anil.treesandgraphs.CutOffTreesForGolfEvent" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anil.treesandgraphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WordSearchTrie">
     <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anil.recursion.GenerateParentheses" />
       <module name="leetcode" />
@@ -98,19 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anil.treesandgraphs.LowestCommonAncestorBinaryTree" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anil.treesandgraphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anil.recursion.WordSearch" />
       <module name="leetcode" />
@@ -124,13 +99,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordSearchII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anil.recursion.WordSearchII" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anil.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordSearchTrie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anil.recursion.WordSearchTrie" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anil.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordSearchTrie" />
+        <item itemvalue="Application.WordSearchII" />
         <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.LetterCombinationsPhoneNumber" />
-        <item itemvalue="Application.CutOffTreesForGolfEvent" />
-        <item itemvalue="Application.LowestCommonAncestorBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681235885607</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Success code : Word Search&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/2989/">
+      <created>1681494397944</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681494397944</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Success code : RotateImage&#10;https://leetcode.com/problems/rotate-image/description/" />
     <MESSAGE value="Success code : GroupAnagrams&#10;https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2970/" />
     <MESSAGE value="Success code : GroupAnagrams Categorize by count &#10;https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2970/" />
     <MESSAGE value="Success code : MinimumWindowSubString&#10;https://leetcode.com/problems/minimum-window-substring/description/" />
@@ -400,7 +407,8 @@
     <MESSAGE value="Success code : Cut Off Trees for Golf Event&#10;https://leetcode.com/explore/interview/card/amazon/78/trees-and-graphs/2986/" />
     <MESSAGE value="Success code : Letter Combinations of a Phone Number&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/521/" />
     <MESSAGE value="Success code : Generate Parentheses&#10;https://leetcode.com/submissions/detail/932053092/?from=explore&amp;item_id=2988" />
-    <option name="LAST_COMMIT_MESSAGE" value="Success code : Generate Parentheses&#10;https://leetcode.com/submissions/detail/932053092/?from=explore&amp;item_id=2988" />
+    <MESSAGE value="Success code : Word Search&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/2989/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Success code : Word Search&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/2989/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -474,6 +482,11 @@
           <url>file://$PROJECT_DIR$/com/anil/recursion/GenerateParentheses.java</url>
           <line>36</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/anil/recursion/WordSearchIITrie.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
