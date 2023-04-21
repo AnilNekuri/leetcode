@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d69f618-6f0d-4131-940b-8d80cbc0d027" name="Changes" comment="Success code : Word Search&#10;https://leetcode.com/explore/interview/card/amazon/84/recursion/2989/">
-      <change afterPath="$PROJECT_DIR$/com/anil/recursion/WordSearchII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/anil/recursion/WordSearchIITrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/anil/sortingandsearching/MedianOfTwoSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <recent name="com.anil.treesandgraphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordSearchTrie">
+  <component name="RunManager" selected="Application.MedianOfTwoSortedArray">
     <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anil.recursion.GenerateParentheses" />
       <module name="leetcode" />
@@ -73,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCombinationsPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.anil.recursion.LetterCombinationsPhoneNumber" />
+    <configuration name="MedianOfTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anil.sortingandsearching.MedianOfTwoSortedArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anil.recursion.*" />
+          <option name="PATTERN" value="com.anil.sortingandsearching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MedianOfTwoSortedArray" />
         <item itemvalue="Application.WordSearchTrie" />
         <item itemvalue="Application.WordSearchII" />
         <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.GenerateParentheses" />
-        <item itemvalue="Application.LetterCombinationsPhoneNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -487,6 +486,11 @@
           <url>file://$PROJECT_DIR$/com/anil/recursion/WordSearchIITrie.java</url>
           <line>70</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/anil/sortingandsearching/MedianOfTwoSortedArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
